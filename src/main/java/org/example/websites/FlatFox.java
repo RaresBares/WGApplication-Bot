@@ -59,7 +59,7 @@ public class FlatFox {
 
 
             driver.navigate().to("https://flatfox.ch/de/" + token + "/m/");
-          //COOKIESS
+          //COOKIES
 
             driver.navigate().refresh();
             driver.findElement(By.cssSelector("#id_name")).clear();
